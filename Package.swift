@@ -19,7 +19,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/tomlokhorst/XcodeEdit", from: "2.9.0"),
-        .package(url: "https://github.com/apple/swift-argument-parser", from: "1.1.0"),
+        .package(url: "https://github.com/apple/swift-argument-parser", exact: "1.0.3"),
     ],
     targets: [
         .target(name: "RswiftResources"),
